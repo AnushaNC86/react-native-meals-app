@@ -22,8 +22,8 @@ const CategoriesScreen = ({ navigation }) => {
       data={CATEGORIES}
       keyExtractor={(item) => item.id}
       renderItem={renderCategoryItem}
-      numColumns={2}
-      key={`${numCols}-columns`}
+      // numColumns={2}
+      // key={`${numCols}-columns`}
     />
   );
 };

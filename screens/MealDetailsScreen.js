@@ -19,7 +19,6 @@ const MealDetailsScreen = ({ route, navigation }) => {
   const mealIsFavorite = favoriteMealIds?.includes(mealId);
 
   const changeFavHandler = () => {
-    console.log("fav pressed");
     if (mealIsFavorite) {
       // favoriteMealContext.removeFavorite(mealId)
       dispatch(removeFavorites({ id: mealId }));
